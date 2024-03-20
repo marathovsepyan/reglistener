@@ -1,0 +1,29 @@
+{
+  "name": "range396/reglistener",
+  "description": "A Laravel package for notice welcome email",
+  "homepage": "https://github.com/range396/reglistener",
+  "license": "GPLv3",
+  "keywords": [
+    "laravel",
+    "package",
+    "listener",
+    "email"
+  ],
+  "authors": [
+    {
+      "name": "Eric",
+      "email": "wellworkforfuture@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ],
+    "psr-4": {
+      "Range396\\RegListener\\": "src/"
+    }
+  }
+}
